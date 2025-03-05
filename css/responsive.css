@@ -1,0 +1,139 @@
+/* responsive.css */
+
+/* Mobile devices (max-width: 768px) */
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    .header-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav {
+        font-size: 24px;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+
+    #title {
+        flex-direction: column;
+        padding: 10%;
+        text-align: center;
+    }
+
+    #profile-pic {
+        width: 100%;
+        height: auto;
+    }
+
+    #title h1 {
+        font-size: 50px;
+    }
+
+    #subtitle {
+        font-size: 24px;
+    }
+
+    #title-links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    #title-links a {
+        margin: 10px 0;
+        width: 100%;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    #projectss {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #projectss div {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    #projectss img {
+        width: 100%;
+        height: auto;
+    }
+
+    #aboutt ul {
+        width: 80%;
+        padding: 3%;
+    }
+
+    #contact {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        width: 90%;
+    }
+
+    #contact h2 {
+        font-size: 24px;
+    }
+
+    #contact p {
+        font-size: 16px;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+}
+
+/* Extra small devices (max-width: 480px) */
+@media only screen and (max-width: 480px) {
+    .header-content {
+        padding: 10px 0;
+    }
+
+    nav {
+        font-size: 18px;
+        gap: 10px;
+    }
+
+    #title h1 {
+        font-size: 40px;
+    }
+
+    #subtitle {
+        font-size: 20px;
+    }
+
+    #title-links a {
+        font-size: 14px;
+        margin: 8px 0;
+    }
+
+    #projectss div {
+        width: 100%;
+    }
+
+    #aboutt ul {
+        width: 90%;
+    }
+
+    #contact {
+        width: 100%;
+    }
+
+    #contact h2 {
+        font-size: 22px;
+    }
+
+    #contact p {
+        font-size: 14px;
+    }
+}

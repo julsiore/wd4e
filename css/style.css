@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    background-color: whitesmoke;
+    color: rgb(172, 128, 214);
+}
+
+header h1 {
+    color: rgb(172, 128, 214);
+}
+
+.header-content {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+nav {
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+nav a {
+    padding: 10px;
+    text-decoration: none;
+    color: inherit;
+}
+
+nav a:hover {
+    color: rgb(63, 100, 140);
+    cursor: pointer;
+}
+
+#logo {
+    font-family: 'Borel', cursive;
+    font-size: 40px;
+}
+
+#title {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 70%;
+    margin: auto;
+    padding: 5%;
+}
+
+#title-container {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: 'Borel', cursive;
+    font-size: 70px;
+    margin-bottom: 0;
+    color: rgb(116, 204, 255);
+}
+
+#subtitle {
+    color: rgb(63, 100, 140);
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+h1, #subtitle {
+    line-height: 1;
+}
+
+#profile-pic {
+    width: 400px;
+    height: auto;
+}
+
+#info {
+    padding: 5%;
+}
+
+#title-links a {
+    background-color: rgb(172, 128, 214);
+    color: white;
+    border-radius: 45px;
+    padding: 2%;
+    text-decoration: none;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+
+#title-links a:last-child {
+    margin-top: 20px;
+    margin-right: 0;
+}
+
+#title-links a:hover {
+    background-color: rgb(63, 100, 140);
+}
+
+h2 {
+    text-align: center;
+    color: rgb(172, 128, 214);
+    font-size: 40px;
+}
+
+#projectss {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+}
+
+#projectss img {
+    width: 80%;
+}
+
+hr {
+    width: 50%;
+    margin: auto;
+}
+
+.buttonp {
+    text-decoration: none;
+    background-color: rgb(63, 100, 140);
+    color: white;
+    padding: 2%;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    color: rgb(63, 100, 140);
+}
+
+#top {
+    background-color: rgb(239, 220, 220);
+    color: rgb(63, 100, 140);
+    border-radius: 10px;
+    padding: 0.5%;
+}
+
+#aboutt {
+    width: 70%;
+    text-align: center;
+    margin: auto;
+}
+
+#aboutt ul {
+    background-color: rgb(63, 100, 140);
+    color: white;
+    list-style: none;
+    width: 50%;
+    border-radius: 40px;
+    margin: auto;
+    padding: 1%;
+}
+
+#contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Espacio entre los elementos */
+    margin: auto;
+    width: 60%; /* Controla el tamaño del contenedor */
+    text-align: center; /* Centra el texto */
+}
+
+#contact div {
+    margin: 0;
+}
+
+#contact h2 {
+    font-size: 28px; /* Ajusta el tamaño del título */
+    color: rgb(63, 100, 140);
+}
+
+#contact p {
+    font-size: 18px; /* Ajusta el tamaño del texto */
+    color: rgb(63, 100, 140);
+}
